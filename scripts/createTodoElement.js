@@ -23,7 +23,7 @@ export function createTodoElement(data) {
         <div class="details flex">
           <img
             class="checkmark"
-            src="/images/checkmark.png"
+            src="images/checkmark.png"
             alt="completed mark"
           />
           <p class="date">${data.createdAtDate}</p>
