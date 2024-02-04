@@ -1,8 +1,7 @@
 /* A set of premade colors, pick your poison */
 :root {
-  --color-primary: rgb(64, 123, 234);
-  --color-secondary: rgb(255, 116, 66);
-  --color-accent: rgb(162, 72, 165);
+  --color-primary: #c6878f;
+  --color-secondary: #f1e4e6;
   --color-gray: rgb(40, 40, 45);
   --color-white: #f0f0f0;
   --color-black: #0f0f0f;
@@ -20,13 +19,6 @@
 }
 .text-secondary {
   color: var(--color-secondary);
-}
-
-.bg-accent {
-  background-color: var(--color-accent);
-}
-.text-accent {
-  color: var(--color-accent);
 }
 
 .bg-gray {

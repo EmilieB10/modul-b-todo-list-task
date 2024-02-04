@@ -18,3 +18,96 @@
 .min-h-screen {
   min-height: 100vh;
 }
+
+.justify-center {
+  justify-content: center;
+}
+
+header {
+  margin-bottom: 2em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f1e4e6;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.todo-card {
+  border: 2px solid #c6878f;
+  background: #f1e4e6;
+  border-radius: 1em;
+  width: 50%;
+  margin: 0 auto 2em auto;
+}
+
+.task-complete {
+  background: #99d17b;
+  border: 2px solid #579735;
+  h2 {
+    border-bottom: 2px solid #579735;
+  }
+}
+
+.inside-card {
+  padding: 0.5em 2em;
+}
+
+.id {
+  color: #989a9a80;
+  font-size: 0.8rem;
+}
+
+.title {
+  border-bottom: 2px solid #c6878f;
+}
+
+#title-input,
+#description-input,
+#add {
+  margin: 0 auto 1em auto;
+  width: 40%;
+  border: 2px solid #c6878f;
+  border-radius: 1em;
+}
+
+#description-input {
+  min-height: 6lh;
+  height: fit-content;
+}
+
+#add {
+  width: 20%;
+  background: none;
+}
+
+input {
+  padding: 0.5em 1em;
+}
+
+input:focus,
+input:active {
+  outline-color: #c6878f;
+  background: #f1e4e6;
+}
+
+.date {
+  text-align: end;
+  font-style: italic;
+  margin: 0;
+}
+
+.checkmark {
+  width: auto;
+  height: 2em;
+}
+
+.details {
+  justify-content: space-between;
+}

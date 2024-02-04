@@ -7,4 +7,30 @@
  * @param {Todo} data
  * @returns {HTMLElement}
  */
-export function createTodoElement(data) {}
+
+// function hello(data) {
+//   console.log(data);
+// }
+
+export function createTodoElement(data) {
+  const todoEL = document.createElement("li");
+  todoEL.innerHTML = `
+    <div class="todo-card">
+      <div class="inside-card">
+        <p class="id">ID: ${data.id}</p>
+        <h2 class="title">${data.title}</h2>
+        <p class="description">${data.description}</p>
+        <div class="details flex">
+          <img
+            class="checkmark"
+            src="./images/checkmark.png"
+            alt="completed mark"
+          />
+          <p class="date">${data.createdAtDate}</p>
+        </div>
+      </div>
+    </div>
+    `;
+
+  return todoEL;
+}
